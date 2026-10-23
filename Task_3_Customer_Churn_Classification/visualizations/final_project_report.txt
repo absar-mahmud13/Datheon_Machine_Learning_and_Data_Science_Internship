@@ -1,0 +1,25 @@
+PREDICTIVE CUSTOMER CHURN CLASSIFICATION
+Random Forest and XGBoost with SMOTE
+==================================================
+
+Dataset shape after cleaning: (7043, 20)
+Training samples: 5634
+Test samples: 1409
+Target: Churn (1 = Yes, 0 = No)
+
+CROSS-VALIDATION RESULTS
+        Model  Mean ROC-AUC  ROC-AUC Std  Mean F1  Mean Precision  Mean Recall
+Random Forest      0.817423     0.012138 0.564395        0.586493     0.544482
+      XGBoost      0.843937     0.009620 0.614989        0.610996     0.620067
+
+TEST-SET RESULTS
+        Model  Accuracy  Precision   Recall  F1 Score  ROC-AUC
+      XGBoost  0.776437   0.560825 0.727273  0.633295 0.843220
+Random Forest  0.770050   0.555804 0.665775  0.605839 0.835018
+
+Best Random Forest parameters: {'classifier__max_depth': 12, 'classifier__min_samples_leaf': 3, 'classifier__n_estimators': 400}
+Best XGBoost parameters: {'classifier__learning_rate': 0.03, 'classifier__max_depth': 3, 'classifier__n_estimators': 200}
+
+Best model by test ROC-AUC: XGBoost
+Best test ROC-AUC: 0.8432
+ROC-AUC >= 0.80: True

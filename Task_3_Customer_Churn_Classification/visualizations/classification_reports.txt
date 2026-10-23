@@ -1,0 +1,20 @@
+RANDOM FOREST CLASSIFICATION REPORT
+              precision    recall  f1-score   support
+
+      Stayed       0.87      0.81      0.84      1035
+     Churned       0.56      0.67      0.61       374
+
+    accuracy                           0.77      1409
+   macro avg       0.71      0.74      0.72      1409
+weighted avg       0.79      0.77      0.78      1409
+
+
+XGBOOST CLASSIFICATION REPORT
+              precision    recall  f1-score   support
+
+      Stayed       0.89      0.79      0.84      1035
+     Churned       0.56      0.73      0.63       374
+
+    accuracy                           0.78      1409
+   macro avg       0.73      0.76      0.74      1409
+weighted avg       0.80      0.78      0.78      1409

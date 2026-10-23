@@ -1,0 +1,46 @@
+Feature,Importance
+categorical__Contract_Month-to-month,0.20666584
+categorical__OnlineSecurity_No,0.116466306
+categorical__TechSupport_No,0.07521647
+categorical__InternetService_Fiber optic,0.049725093
+categorical__PaymentMethod_Electronic check,0.046663173
+categorical__PaperlessBilling_Yes,0.038202915
+categorical__Dependents_No,0.03472144
+categorical__PaperlessBilling_No,0.034300532
+categorical__MultipleLines_No,0.027324626
+categorical__Contract_One year,0.026691563
+categorical__StreamingTV_No,0.025972912
+numeric__tenure,0.024578301
+categorical__Contract_Two year,0.024441274
+categorical__StreamingMovies_Yes,0.024157455
+categorical__OnlineBackup_No,0.023893258
+categorical__StreamingMovies_No,0.019958036
+categorical__PaymentMethod_Credit card (automatic),0.017003402
+categorical__StreamingTV_Yes,0.01693998
+categorical__InternetService_DSL,0.016903419
+categorical__DeviceProtection_No,0.015518692
+categorical__PaymentMethod_Mailed check,0.01486304
+numeric__MonthlyCharges,0.013432404
+categorical__gender_Male,0.012669188
+categorical__Partner_No,0.012248995
+numeric__TotalCharges,0.010755479
+categorical__gender_Female,0.0100601865
+categorical__MultipleLines_Yes,0.009521644
+categorical__OnlineBackup_Yes,0.009493561
+categorical__PaymentMethod_Bank transfer (automatic),0.008610128
+categorical__PhoneService_Yes,0.007841449
+categorical__OnlineSecurity_Yes,0.0074346606
+categorical__TechSupport_Yes,0.0067115347
+categorical__DeviceProtection_Yes,0.0059096315
+categorical__PhoneService_No,0.004362132
+numeric__SeniorCitizen,0.0007412769
+categorical__Dependents_Yes,0.0
+categorical__Partner_Yes,0.0
+categorical__TechSupport_No internet service,0.0
+categorical__DeviceProtection_No internet service,0.0
+categorical__OnlineBackup_No internet service,0.0
+categorical__OnlineSecurity_No internet service,0.0
+categorical__InternetService_No,0.0
+categorical__MultipleLines_No phone service,0.0
+categorical__StreamingMovies_No internet service,0.0
+categorical__StreamingTV_No internet service,0.0
