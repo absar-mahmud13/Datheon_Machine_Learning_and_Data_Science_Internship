@@ -1,0 +1,18 @@
+REAL ESTATE HOUSING PRICE PREDICTION
+OLS, Ridge and Lasso Regression
+=============================================
+
+Dataset shape after cleaning: (20640, 14)
+Target variable: median_house_value
+Training samples: 16512
+Testing samples: 4128
+
+MODEL COMPARISON
+Model         RMSE          MAE       R2
+  OLS 69048.192348 49376.488621 0.636171
+Lasso 69049.248279 49377.343341 0.636159
+Ridge 69056.220363 49382.628138 0.636086
+
+Best model by test RMSE: OLS
+Best Ridge parameters: {'regressor__alpha': 1}
+Best Lasso parameters: {'regressor__alpha': 1}
