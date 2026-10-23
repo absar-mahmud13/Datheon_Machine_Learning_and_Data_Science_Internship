@@ -1,0 +1,25 @@
+# Task 2: California Housing Price Prediction
+
+## Overview
+This project focuses on predicting California housing prices using machine learning regression techniques.
+
+## Models
+- Ridge Regression
+- Lasso Regression
+
+## Tools and Libraries
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+
+## Notebook
+`Task_2_California_Housing_Price_Prediction_Ridge_Lasso.ipynb`
+
+## Evaluation
+Model performance is evaluated using the metrics and visualizations provided in the notebook.
+
+## Internship
+Datheon Machine Learning & Data Science Internship — Task 2.
