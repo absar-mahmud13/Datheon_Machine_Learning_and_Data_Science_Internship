@@ -1,25 +1,104 @@
-# Task 2: California Housing Price Prediction
+# Task 2: California Housing Price Prediction Using Ridge and Lasso Regression
 
-## Overview
-This project focuses on predicting California housing prices using machine learning regression techniques.
+## Datheon Machine Learning & Data Science Internship
 
-## Models
-- Ridge Regression
-- Lasso Regression
+### Project Overview
 
-## Tools and Libraries
+This project focuses on predicting median house values using the California Housing dataset. It implements and compares Ordinary Least Squares (OLS), Ridge Regression (L2 regularization), and Lasso Regression (L1 regularization) to evaluate their predictive performance and understand the impact of regularization on linear regression models.
+
+### Objectives
+
+- Predict median house values using regression techniques.
+- Perform exploratory data analysis (EDA) and visualize feature correlations.
+- Handle missing values through appropriate imputation techniques.
+- Engineer interaction features to capture relationships between variables.
+- Analyze multicollinearity among input features.
+- Standardize continuous features and encode categorical attributes where applicable.
+- Tune Ridge and Lasso regularization parameters using GridSearchCV.
+- Compare model performance using RMSE, MAE, and R².
+
+### Dataset
+
+- **Dataset:** California Housing
+- **Target Variable:** `median_house_value`
+- **Source:** [California Housing Dataset (CSV)](https://raw.githubusercontent.com/ageron/handson-ml2/master/datasets/housing/housing.csv)
+
+The dataset contains housing-related information, including location, housing age, rooms, population, households, and median income.
+
+### Technologies and Libraries
+
 - Python
 - Pandas
 - NumPy
 - Matplotlib
 - Seaborn
 - Scikit-learn
+- Jupyter Notebook / Google Colab
 
-## Notebook
-`Task_2_California_Housing_Price_Prediction_Ridge_Lasso.ipynb`
+### Methodology
 
-## Evaluation
-Model performance is evaluated using the metrics and visualizations provided in the notebook.
+1. Load the California Housing dataset and inspect its structure.
+2. Perform exploratory data analysis and generate correlation heatmaps.
+3. Identify missing values and apply appropriate imputation.
+4. Engineer relevant interaction features and examine multicollinearity.
+5. Standardize continuous features and encode categorical variables where necessary.
+6. Split the dataset into training and testing sets.
+7. Train an Ordinary Least Squares (Linear Regression) baseline model.
+8. Train Ridge and Lasso regression models.
+9. Use GridSearchCV to tune the regularization parameter (`alpha`) for Ridge and Lasso.
+10. Evaluate the models using RMSE, MAE, and R².
+11. Visualize actual versus predicted house values and analyze residual distributions.
 
-## Internship
-Datheon Machine Learning & Data Science Internship — Task 2.
+### Models
+
+- **Ordinary Least Squares (OLS):** Baseline linear regression model.
+- **Ridge Regression:** Uses L2 regularization to help control large coefficients.
+- **Lasso Regression:** Uses L1 regularization and can shrink some coefficients to zero.
+
+### Evaluation Metrics
+
+- **RMSE:** Root Mean Squared Error
+- **MAE:** Mean Absolute Error
+- **R² Score:** Coefficient of determination
+
+The notebook contains the calculated evaluation metrics and visualizations used to compare model performance.
+
+### Repository Structure
+
+```text
+Task_2_California_Housing/
+├── Task_2_California_Housing_Price_Prediction_Ridge_Lasso.ipynb
+├── visualizations/
+│   └── Generated visualization images
+├── visualizations.zip
+└── README.md
+```
+
+*Note: Keep only the files and folders that you actually upload to the repository, and update their names if necessary.*
+
+### How to Run
+
+1. Open the Jupyter Notebook in Google Colab or Jupyter Notebook.
+2. Install any required libraries that are not already available.
+3. Run the notebook cells in order.
+4. Review the model evaluation metrics and generated visualizations.
+
+### Expected Deliverables
+
+- A Jupyter Notebook containing data preprocessing, feature engineering, model training, hyperparameter tuning, and evaluation.
+- Visualizations, including correlation heatmaps, actual-versus-predicted plots, and residual distributions, where generated.
+- A comparison of OLS, Ridge, and Lasso regression models using RMSE, MAE, and R².
+
+### Internship Information
+
+- **Organization:** Datheon
+- **Program:** Machine Learning & Data Science Internship
+- **Task:** Task 2 — California Housing Price Prediction
+
+### Author
+
+Md. Absar
+
+---
+
+This project is intended for educational purposes and practical machine learning skill development.
